@@ -24,11 +24,12 @@ def primeForUser():
     Takes user input to display findPrime, the program will continue to 
     ask for an input till user chooses to stop
     
-    primeForUser: None -> Listof(Int)
+    primeForUser: None -> None
     '''
     x = input('Please enter a number or type "stop":')
     if x == 'stop':
         print ('Complete')
+        return None
     else:
         num = int(x)
         print (findPrime(num))
