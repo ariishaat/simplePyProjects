@@ -1,3 +1,3 @@
 # simplepyprojects
 
-Solutions I created to simple problems from https://github.com/karan/Projects
+My solutions to simple project from https://github.com/karan/Projects
