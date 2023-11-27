@@ -23,7 +23,7 @@ def fibN(n):
 
 def fibseqlist(n):
     '''
-    Creates a list of the fibonnaci sequence up to the Nth number
+    Creates a list of the fibonnaci sequence up to the nth number
     
     fibseqlist: int -> (listof Int)
     
@@ -37,3 +37,9 @@ def fibseqlist(n):
             sequenceL.append(0)
     sequenceL.reverse()
     return sequenceL
+
+def getFibSeq():
+    fs = int(input("Enter a number: "))
+    print("Fibonnaci sequence up to " + str(fs) + ":", fibseqlist(fs))
+
+getFibSeq()
