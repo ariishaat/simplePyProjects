@@ -21,9 +21,17 @@ def pi_to_N(n):
     else:
         return float(form % pi)
 
+def findPi():
+    '''
+    Takes user input to return Pi to n decimals
+    '''
+    num = int(input("Enter a number: "))
+    print(pi_to_N(num))
 
 '''
-define pi w/o 'math.pi':
+NOTES: define pi w/o 'math.pi':
    pi1 = 4 * math.atan(1)
    pi2 = math.acos(-1)
 '''
+
+findPi()

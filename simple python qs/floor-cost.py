@@ -22,3 +22,5 @@ def tileCalc():
     print ("The cost to cover this floor plan will be $" + str((w*l)*(float(cost))))
     return None
     
+
+tileCalc()

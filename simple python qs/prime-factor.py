@@ -35,3 +35,4 @@ def primeForUser():
         print (findPrime(num))
         primeForUser()
     
+primeForUser()
